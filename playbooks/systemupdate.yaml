@@ -1,0 +1,9 @@
+---
+- name: Set Up an Apache Web Server
+  hosts: all
+  become: yes
+  tasks:
+  - name: Update all packages 
+    yum:
+      name: '*'
+      state: latest
