@@ -8,6 +8,6 @@ my_username_sc: "emajor7add9"
 my_username_li: "gutamahardika"
 my_username_medium: "n0sebleedmusix"
 my_description: "DevOps Engineer | Tech Junkie | Linux Geek | Musician"
-
+my_theme: "indigo-white"
 #Backend vars
-backend_url: "http://ansiblefuture-4.dev1.lokal/backend.html"
+backend_url: "http://ansiblefuture-2.dev1.lokal/backend.html"

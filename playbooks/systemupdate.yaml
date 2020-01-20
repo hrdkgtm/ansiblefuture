@@ -1,5 +1,5 @@
 ---
-- name: Set Up an Apache Web Server
+- name: Update all package
   hosts: all
   become: yes
   tasks:

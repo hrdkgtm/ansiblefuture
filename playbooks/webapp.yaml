@@ -1,6 +1,6 @@
 ---
-- name: Deploy landing page
-  hosts: landingpage
+- name: Deploy Web App
+  hosts: webservers
   become: yes
   tasks:
   - name: Make sure git is installed
