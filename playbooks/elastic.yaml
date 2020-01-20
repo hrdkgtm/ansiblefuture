@@ -1,0 +1,6 @@
+---
+- name: Set Up an Apache Web Server
+  hosts: webservers
+  become: yes
+  roles:
+  - geerlingguy.elasticsearch
